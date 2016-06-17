@@ -9,8 +9,8 @@ class Tweets extends CI_Controller {
           $this->load->model('tweets_model');
   }
 
-	public function index()
-	{
+ public function index()
+  {
     $this->load->view('Templates/stylesheets');
     $this->load->view('Templates/header');
     $this->load->view('Templates/sidebar');
